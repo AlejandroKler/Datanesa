@@ -1,0 +1,94 @@
+\documentclass[titlepage,a4paper]{article}
+
+\usepackage{a4wide}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,bookmarksopen=true]{hyperref}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{float}
+
+\pagestyle{fancy} % Encabezado y pie de página
+\fancyhf{}
+\fancyhead[L]{TP1}
+\fancyhead[R]{FIUBA}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[C]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+\begin{titlepage} % Carátula
+    \centering
+    \vfill
+    \Huge \textbf{Trabajo Práctico 1} \\
+    
+    \vskip1cm
+    \Huge [75.06] Organización de Datos\\
+    \vskip2cm
+    \begin{table}[htbp]
+	\begin{center}
+	\begin{adjustbox}{max width=\textwidth}
+	\begin{tabular}{|l|l|l|}
+	\hline
+    \multicolumn{3}{|c|}{Grupo 9} \\ \hline
+	Nombre & Padrón & Mail \\ \hline 
+    Leonardo Bellaera & 100973 & leobellaera@gmail.com \\ \hline 
+    Nicolás Bugliot & 101694  & .. \\ \hline
+    Filyan Karagoz &  pad & mail \\ \hline
+    Alejandro Kler & 100596 & alejandrokler@gmail.com \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    \vskip 2cm
+    \includegraphics[width=8.7cm, height=8.7cm]{UBA.png}
+	\label{tabla:sencilla}
+	\end{center}
+	\end{table}
+	\vskip1cm
+	\Large \textit{Primer cuatrimestre de 2019}
+
+    \vfill
+\end{titlepage}
+\tableofcontents % Índice general
+\newpage
+
+\section{Introducción}\label{sec:intro}
+
+(acá va todo la introducción...)
+
+\newpage
+
+\section{Hipótesis de trabajo}\label{sec:intro}
+
+
+
+\section{Análisis exploratorio y visualización de los datos}\label{sec:intro}
+
+En esta sección se desarrolla el análisis exploratorio realizado sobre los datos (...)
+
+\newpage  %cada análisis lo ponemos en una hoja nueva
+
+\subsection{Análisis de x}
+
+Acá pones todo el análisis q realizaste sobre la variable x de los datasets incluyendo gráficos y demás.
+
+\newpage 
+
+\subsection{Análisis de y}
+
+Acá pones todo el análisis q realizaste sobre la variable y de los datasets incluyendo gráficos y demás.
+
+\subsubsection{subsección del análisis de y}
+
+asdassd
+
+\newpage  %la conclusión la apartamos del analisis
+
+\section{Conclusión}\label{sec:intro}
+
+Acá va todo el chamuyo de la conclusión (...)
+
+
+\end{document}
